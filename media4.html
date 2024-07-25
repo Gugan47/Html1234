@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .b
+    {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .f
+    {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin-top: 50px;
+    }
+    @media screen and(max-width:800px)
+    {
+        .a
+        {
+            
+        }
+    }
+    
+</style>
+<body>
+    <div class="a" style="background-color: red; width: 1000%; height: 150px;"></div>
+    <div class="b">
+        <div style="height: 200px; width: 200px;background-color: green;"></div>
+        <div style="height: 200px; width: 200px;background-color: green;"></div>
+        <div style="height: 200px; width: 200px;background-color: green;"></div>
+    </div>
+    <div class="f">
+        <div style="height: 200px; width: 200px;background-color: orange;"></div>
+        <div style="height: 200px; width: 200px;background-color: orange;"></div>
+        <div style="height: 200px; width: 200px;background-color: orange;"></div>
+        <div style="height: 200px; width: 200px;background-color: orange;"></div>
+    </div>
+</body>
+</html>

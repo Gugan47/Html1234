@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .r
+    {
+   background-color: red;
+       }
+       .g
+    {
+   background-color:green;
+    }
+    .b
+    {
+   background-color: blue;
+       }
+       .y
+       {
+        background-color: yellow;
+       }
+    {
+   background-color: red;
+       }
+       .gu
+       {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        position: absolute;
+       }
+       @media screen and (max-width:1000px)
+       {
+        .gu{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+       }
+       @media screen and (max-width:600px)
+       {
+        .gu{
+            display: grid;
+            grid-template-columns: auto ;
+        }
+       }
+</style>
+<body>
+    <div class="gu">
+        <div class="r" style="height: 100px; width: 300px;"></div>
+        <div class="g" style="height: 100px; width: 300px;"></div>
+        <div class="b" style="height: 100px; width: 300px;"></div>
+        <div class="y" style="height: 100px; width: 300px;"></div>
+    </div>
+</body>
+</html>
